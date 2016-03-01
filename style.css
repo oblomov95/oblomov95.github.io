@@ -657,7 +657,8 @@ body {
   margin: 0 auto;
   margin-bottom: 30px;
 
-  background: #fff url(img/content-bg.png);
+  background: url(img/gray-line.png) no-repeat center,
+         #fff url(img/content-bg.png);
 }
 
 .content__news {
@@ -669,21 +670,9 @@ body {
   padding: 20px 50px;
   padding-bottom: 0;
 
-  position: relative;
 }
 
-.content__news:after{
-  content: "";
 
-  position: absolute;
-  top: 80px;
-  left: 450px;
-
-  height: 100%;
-  width: 100%;
-
-  background: url(img/gray-line.png) no-repeat;
-}
 
 .content__title {
   font-size: 30px;
@@ -745,7 +734,8 @@ body {
 
   margin: 0 auto;
 
-  background: #fff url(img/content-bg.png);
+  background: url(img/gray-line.png) no-repeat center,
+              #fff url(img/content-bg.png);
  }
 
  .contacts__information {
@@ -757,19 +747,6 @@ body {
   padding: 20px 50px;
 
   position: relative;
- }
-
- .contacts__information:after {
-  content: "";
-
-  position: absolute;
-  top: 80px;
-  left: 450px;
-
-  height: 100%;
-  width: 100%;
-
-  background: url(img/gray-line.png) no-repeat;
  }
 
  .contacts__register {
@@ -798,7 +775,7 @@ body {
 .contacts__register-form input {
   display: inline-block;
   width: 100px;
-  margin-right: 15px;
+  margin-right: 10px;
   margin-bottom: 20px;
   padding: 10px 15px;
   border: 2px solid #000;
