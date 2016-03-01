@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Barbershop</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header class="header">
+		<nav class="menu-wrap">
+			<ul class="menu">
+				<li class="menu__item menu__item--active"><a href="#">Главная</a></li>
+				<li class="menu__item "><a href="#">Информация</a></li>
+				<li class="menu__item"><a href="#">Новости</a></li>
+				<li class="menu__item"><a href="#">Прайслист</a></li>
+				<li class="menu__item"><a href="#">Магазин</a></li>
+				<li class="menu__item"><a href="#">Контакты</a></li>
+				<li class="menu__item menu__item--entrance"><a href="#">Вход</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="logo-wrap">
+		<img src="img/logo.png" alt="Барбершоп Барадинский">
+	</div>
+
+	<div class="features-wrap">
+		<div class="features">
+			<div class="features__item">
+				<h2 class="features__title">Быстро</h2>
+				<p class="features__text">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА <br>
+				   ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ<br>
+				   ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+			</div>
+			<div class="features__item">
+				<h2 class="features__title">Круто</h2>
+				<p class="features__text">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.<br>
+           МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!<br>
+           ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+			</div>
+			<div class="features__item">
+				<h2 class="features__title">Дорого</h2>
+				<p class="features__text">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО<br>
+				   ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ,<br>
+				   РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+			</div>
+		</div>
+	</div>
+  
+  <div class="content-wrap">
+  	<div class="content">
+  		<div class="content__news">
+  			<h2 class="content__title">Новости</h2>
+  			<p class="content__text">НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ <br>
+  			   МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ<br>
+  			   <span class="date">25 сентября</span></p>
+  			<p class="content__text">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» 
+  			   СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕТСВА ТИТУЛОВ И 
+  			   НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ<br>
+  			   <span class="date">19 сентября</span></p>
+  			<div class="btn btn--news"><a href="#">Все новости</a></div>
+  		</div>
+  		<div class="content__gallery">
+  			<h2 class="content__title">Фотогалерея</h2>
+  			<img class="content__img" src="img/gallery-item.jpg" alt="Комната барбершопа">
+        <div class="btn__wrap">
+          <div class="btn btn--gallery"><a href="#">Назад</a></div>
+          <div class="btn btn--gallery"><a href="#">Вперeд</a></div>
+        </div>			
+  		</div>
+  	</div>
+  </div>
+
+  <div class="contacts-wrap">
+  	<div class="contacts">
+  		<div class="contacts__information">
+  			<h2 class="contacts__title">Контактная ифнормация</h2>
+  			<p class="contacts__text">BARBERSHOP «BORODINSKI»<br>
+           АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13<br>
+           ТЕЛЕФОН: +7 (495) 666-02-666</p>
+  			<p class="contacts__text">ВРЕМЯ РАБОТЫ:<br> 
+           ПН — ПТ: С 10:00 ДО 22:00<br>
+           СБ — ВС: С 10:00 ДО 19:00</p>
+  			<div class="btn btn--contacts"><a href="">Как проехать</a></div>
+  			<div class="btn btn--contacts"><a href="">Обратная связь</a></div>
+  		</div>
+  		<div class="contacts__register">
+  			<h2 class="contacts__title">Записаться</h2>
+  			<p class="contacts__text">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ
+  			 С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+  			<form action="" class="contacts__register-form">
+  			<input type="date" name="date" value="" placeholder="Дата">
+              <input type="time" name="time" value="" placeholder="Время">
+              <input type="text" name="name" value="" placeholder="Ваше имя">
+              <input type="tel" name="phone" value="" placeholder="Телефон">
+  		  </form>
+  		  <div class="btn btn--register"><a href="#">Отправить</a></div>
+  		</div>
+  	</div>
+  </div>
+
+  <footer class="footer">
+  	<div class="footer-contacts-wrap">
+  		<div class="footer-contacts">
+  			<div class="footer-contacts__item">
+  				<p class="footer-contacts__text">BARBERSHOP «BORODINSKI»<br>
+             АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13<br>
+             ТЕЛЕФОН: +7 (495) 666-02-666</p>
+  			</div>
+  			<div class="footer-contacts__item">
+  				<p class="footer-contacts__text">Давайте дружить</p>
+  				<div class="footer-contacts__social-wrap">
+  			    <div class="footer-contacts__social footer-contacts__social--vk"><a href="#"></a></div>
+  			  	<div class="footer-contacts__social footer-contacts__social--fb"><a href="#"></a></div>
+  			  	<div class="footer-contacts__social footer-contacts__social--inst"><a href="#"></a></div>
+  			  </div>
+  			</div>
+  			<div class="footer-contacts__item">
+  				<p class="footer-contacts__text">Дизайн сайта:</p>
+  				<div class="footer-contacts__design-link">
+  					<a href="#">glukhanko.ru</a>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </footer>
+</body>
+</html>
